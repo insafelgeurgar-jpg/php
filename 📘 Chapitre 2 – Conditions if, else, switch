@@ -1,0 +1,20 @@
+<?php
+$age = 17
+if ($age>=17){
+    echo (' vous etes majeur');
+}else{
+    echo('vous etes minneur');
+}
+
+$jour= "vendredi"
+switch ($jour) {
+    case 'lundi':
+        echo ('debut de somaine');
+        break;
+        case 'samedi':
+        echo('week_and')
+        break;
+        default:
+        echo('joues normals');
+}
+    
