@@ -1,0 +1,18 @@
+<hp?
+$voiture = [
+    "marque" => "Toyota",
+    "modele" => "Corolla",
+    "année" => 2020
+];
+echo "Modèle : " . $voiture["modele"] . "<br>";
+<hp?
+$fruits = ["Pomme", "Banane"];
+array_push($fruits, "Mangue"); 
+unset($fruits[1]); // Supprime "Banane"
+echo "Nombre de fruits : " . count($fruits);
+<?php
+$animaux=["chat","chein","latertu"];
+echo "premiere animal:".$animaux[2]."<br>";
+arraya_push($animaux,"serpent");
+unset($animaux[2]);
+echo "nombre animaux:".count($animaux)."<br>";
