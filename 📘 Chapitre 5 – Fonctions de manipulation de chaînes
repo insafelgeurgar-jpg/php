@@ -1,0 +1,21 @@
+<?php
+$compteur = 0;
+function incrementer() {
+    static $compteur = 0;
+    $compteur++;
+    echo $compteur;
+}
+incrementer(); // Affiche 1
+incrementer(); // Affiche 2
+?>
+<?php
+function dirbonjour($nom){
+return "bonjour:" .$nom ;
+}
+dirbonjour("INSAF");
+$site = "MonSite";
+
+function afficherSite() {
+    global $site;
+    echo $site;
+}
